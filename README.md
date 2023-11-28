@@ -33,8 +33,8 @@ makers: [
           certificatePassword?: string;
         },
         updater: {
-					url: "https://s3-us-west-2.amazonaws.com/my-bucket",
-					updaterCacheDirName: "my-updater",
+          url: "https://s3-us-west-2.amazonaws.com/my-bucket",
+          updaterCacheDirName: "my-updater",
           channel: "latest",
           publisherName: "My Company, Inc."
 				}
